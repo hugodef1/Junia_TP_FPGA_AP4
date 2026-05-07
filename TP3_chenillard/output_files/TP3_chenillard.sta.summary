@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50_B6A'
+Slack : -4.257
+TNS   : -39.693
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -1.294
+TNS   : -15.955
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50_B6A'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.743
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.538
+TNS   : -18.801
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -0.538
+TNS   : -11.714
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50_B6A'
+Slack : -4.172
+TNS   : -43.306
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -1.230
+TNS   : -15.854
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50_B6A'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.704
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.538
+TNS   : -18.854
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -0.538
+TNS   : -11.606
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50_B6A'
+Slack : -3.226
+TNS   : -9.233
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -0.499
+TNS   : -4.536
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50_B6A'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.604
+TNS   : -10.320
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50_B6A'
+Slack : -2.752
+TNS   : -8.306
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : -0.388
+TNS   : -3.459
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50_B6A'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.659
+TNS   : -12.676
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:Inst_clock_divider|counter[23]'
+Slack : 0.164
+TNS   : 0.000
+
+------------------------------------------------------------

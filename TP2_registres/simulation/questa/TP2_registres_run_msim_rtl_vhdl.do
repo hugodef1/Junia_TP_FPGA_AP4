@@ -50,11 +50,11 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/btibo/Documents/cours_info/FPGA/Junia_TP_FPGA_AP4/TP2_registres/flipflop_JKrs.vhd}
+vcom -93 -work work {C:/Users/btibo/Documents/cours_info/FPGA/Junia_TP_FPGA_AP4/TP2_registres/shift_register_universal8.vhd}
 
-vcom -93 -work work {C:/Users/btibo/Documents/cours_info/FPGA/Junia_TP_FPGA_AP4/TP2_registres/tb_flipflop_JKrs.vhd}
+vcom -93 -work work {C:/Users/btibo/Documents/cours_info/FPGA/Junia_TP_FPGA_AP4/TP2_registres/tb_shift_register_universal8.vhd}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  tb_flipflop_JKrs
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  tb_shift_register_universal8
 
 add wave *
 view structure

@@ -27,7 +27,6 @@ end entity;
 architecture behavioral of flipflop_JK is
     signal Q_int : std_logic := '0';
 begin
-    CLK <= CLOCK_50_B5B; -- Connecter l'horloge à l'entrée de la bascule
     process (CLK)
     begin
         if (CLK'event and CLK = '1') then
