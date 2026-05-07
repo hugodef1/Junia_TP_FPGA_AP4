@@ -9,11 +9,9 @@ entity chenillard is
 end chenillard;
 
 architecture Behavioral of chenillard is
-    -- Définition des 12 cycles demandés
     type state_type is (T0, T1, T2, T3, T4, T5, T6, T7, T8, T9);
     signal state : state_type;
 begin
-    -- Registre d'états
     process(CLK, RST)
     begin
         if RST = '0' then
@@ -35,7 +33,6 @@ begin
         end if;
     end process;
 
-    -- Calcul des sorties (Machine de Moore)
     process(state)
     begin
         case state is

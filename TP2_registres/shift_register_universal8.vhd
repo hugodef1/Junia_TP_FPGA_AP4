@@ -23,17 +23,17 @@ begin
     process (CLK, SETn, RSTn)
     begin
         if RSTn = '0' then
-            Q <= (others => '0'); -- Asynchronous reset
+            Q <= (others => '0');
         elsif SETn = '0' then
-            Q <= (others => '1'); -- Asynchronous preset
+            Q <= (others => '1');
         elsif (CLK'event and CLK = '1') then
             case SEL is
-                when "000" => Q <= Q; -- Hold
-                when "011" => Q <= PI; -- Parallel load
-                when "001" => Q <= SSL & Q(7 downto 1); -- Shift right
-                when "010" => Q <= Q(6 downto 0) & SSR; -- Shift left
-                when "101" => Q <= Q(0) & Q(7 downto 1); -- Rotate right
-                when "110" => Q <= Q(6 downto 0) & Q(7); -- Rotate left
+                when "000" => Q <= Q;
+                when "011" => Q <= PI;
+                when "001" => Q <= SSL & Q(7 downto 1);
+                when "010" => Q <= Q(6 downto 0) & SSR;
+                when "101" => Q <= Q(0) & Q(7 downto 1);
+                when "110" => Q <= Q(6 downto 0) & Q(7);
                 when others => null;
             end case;
         end if;

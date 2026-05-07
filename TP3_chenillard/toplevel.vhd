@@ -11,11 +11,9 @@ end entity;
 
 architecture Structural of toplevel is
     signal clk_lente : std_logic;
-    -- Choix de N = 23 (division par 2^24)
     signal N_val : std_logic_vector(4 downto 0) := "10111"; 
 begin
 
-    -- Instanciation du diviseur
     Inst_clock_divider: entity work.clock_divider
         port map (
             CLKin  => CLOCK_50_B6A,
@@ -24,7 +22,6 @@ begin
             CLKout => clk_lente
         );
 
-    -- Instanciation du chenillard
     Inst_chenillard: entity work.chenillard
         port map (
             CLK  => clk_lente,
